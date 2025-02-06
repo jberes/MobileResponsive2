@@ -1,0 +1,59 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.row-layout {
+  display: flex;
+}
+.group {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: stretch;
+  overflow: hidden;
+  position: relative;
+  padding: 16px;
+  height: 320px;
+  min-width: 50px;
+  min-height: 320px;
+  max-height: 320px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 800px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.reveal-dash-board {
+  min-width: 400px;
+  min-height: 200px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
